@@ -7,3 +7,9 @@ print("he\'s " + character_age + " years old. ")
 character_name = "Mikey"
 print("He really liked the name " + character_name + ", ")
 print("but didn't like being " + character_age + ".")
+
+phrase = "Hello there"
+print(phrase.upper())
+print(phrase.lower())
+print(phrase.isupper())
+print(phrase.upper().isupper())
