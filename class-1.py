@@ -17,3 +17,6 @@ print(phrase.upper().isupper())
 print(len(phrase))
 print(phrase[0])
 print(phrase.index("H"))
+print(phrase.index("ello"))
+
+print(phrase.replace("there", "Leyla"))
