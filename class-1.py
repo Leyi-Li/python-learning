@@ -16,3 +16,24 @@ print(phrase.upper().isupper())
 
 print(len(phrase))
 print(phrase[0])
+print(phrase.index("H"))
+print(phrase.index("ello"))
+
+print(phrase.replace("there", "Leyla"))
+
+print(3 + 4.5)
+print(3 * (4 + 5))
+print(10 % 3)
+my_num = -5
+print(str(my_num) + " is a good number.")
+
+print(abs(my_num))
+print(pow(3, 2))
+print(max(10, 9))
+print(round(3.2))
+print(round(3.8))
+
+from math import *
+print(floor(3.5))
+print(ceil(3.5))
+print(sqrt(4))
