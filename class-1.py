@@ -33,4 +33,7 @@ print(max(10, 9))
 print(round(3.2))
 print(round(3.8))
 
-print(floor(3.7))
+from math import *
+print(floor(3.5))
+print(ceil(3.5))
+print(sqrt(4))
