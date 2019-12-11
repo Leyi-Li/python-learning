@@ -8,6 +8,7 @@ num1 = input("Enter a number: ")
 num2 = input("Enter a number: ")
 
 # int does not work for decimal numbers
+
 result1 = int(num1) + int(num2)
 result2 = float(num1) + float(num2)
 result = int(num1) + int(num2)
