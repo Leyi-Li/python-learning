@@ -28,7 +28,7 @@ print(friends)
 # remove all the elements
 friends.clear()
 print(friends)
-friends = ["Leyla", "Ian", "John", "Colin", "Jack", "Dan"]
+friends = ["Leyla", "Ian", "John", "Colin", "Jack", "Dan", "Leyla"]
 
 
 # remove the last element
@@ -38,3 +38,12 @@ print(friends)
 # check if something is in the list
 print(friends.index("Leyla"))
 # print(friends.index("Tom"))
+print(friends.count("Ian"))
+
+lucky_numbers.sort()
+print(lucky_numbers)
+lucky_numbers.reverse()
+print(lucky_numbers)
+
+friends2 = friends.copy()
+print(friends2)
