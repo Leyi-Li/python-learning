@@ -28,8 +28,13 @@ print(friends)
 # remove all the elements
 friends.clear()
 print(friends)
+friends = ["Leyla", "Ian", "John", "Colin", "Jack", "Dan"]
+
 
 # remove the last element
 friends.pop()
 print(friends)
 
+# check if something is in the list
+print(friends.index("Leyla"))
+# print(friends.index("Tom"))
