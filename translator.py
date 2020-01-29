@@ -16,4 +16,12 @@ def translate(phrase):
 print(translate(input("Enter a phtrase: ")))
 
 
-#comments
+# comments
+# can
+# be multiple like this or
+
+'''
+mutiple
+line
+comments
+'''
