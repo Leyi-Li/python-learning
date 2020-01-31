@@ -1,9 +1,6 @@
-# this is a class just like a template, then we can use it to create objects
+from Student import Student
 
-class Student:
+# Object is an instance of the class
+student1 = Student("Jim", "Business", 3.4, False)
 
-    def __init__(self, name, major, gpa, is_on_probation):
-        self.name = name
-        self.major = major
-        self.gpa = gpa
-        self.is_on_probation = is_on_probation
+print(student1.name)
